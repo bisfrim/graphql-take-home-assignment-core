@@ -39,7 +39,7 @@ WEBSITES_BEARER_EMAIL{BEARER_EMAIL}
 WEBSITES_BEARER_PASSWORD={BEARER_PASSWORD}
 ```
 
-# install dependencies
+# Install dependencies
 - npm i
 
 # Start server
