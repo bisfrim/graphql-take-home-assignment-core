@@ -1,0 +1,42 @@
+{
+    "env": {
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "airbnb-base",
+        "prettier",
+        "plugin:jest/recommended"
+    ],
+    "plugins": ["prettier", "jest"],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+      },
+    "parserOptions": {
+        "ecmaVersion": 12
+    },
+    "rules": {
+        "prettier/prettier": [
+            "error",
+            {
+              "trailingComma": "all",
+              "singleQuote": true,
+              "printWidth": 150,
+              //below line only for windows users facing CLRF and eslint/prettier error
+              // non windows users feel free to delete it
+              "endOfLine": "auto"
+            }
+          ],
+       "import/newline-after-import": "off",
+       "func-names": 0,
+       "no-console": 0,
+       "object-shorthand":"off",
+       "no-async-promise-executor": "off",
+       "no-param-reassign": [2,{"props": false}],
+       "no-shadow": "off",
+       "consistent-return": "off",
+       "import/no-unresolved": "off"
+    }
+}
