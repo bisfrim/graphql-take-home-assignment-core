@@ -1,5 +1,5 @@
 /**
- * @file MLsService.js
+ * @file listingService.js
  * @author: Bismark
  * @version: 1.0
  * createdDate: 05/27/2021
@@ -8,7 +8,7 @@
 const LOGGER = require('../logger/logger');
 const authService = require('../utils/token.service');
 const utils = require('../utils/util');
-const FILE_NAME = 'userService.js';
+const FILE_NAME = 'listingService.js';
 
 module.exports = {
   Query: {
