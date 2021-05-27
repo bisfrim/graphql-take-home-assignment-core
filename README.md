@@ -2,7 +2,7 @@
 ___
 Use for fetching property listings for a particular city.
 
-# Basic Flow
+# Basic Flow 👍
 - First step was to have a generic function that makes a request to simplyRest API using basic HTTP authentication i.e username/password.
 - Next was a service function (listingService.js) which recieves the data from simplyRest via our restClient.js
 - The /graphql endpoint is protected with Bearer authentication.
