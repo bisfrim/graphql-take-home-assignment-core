@@ -4,7 +4,7 @@
  * @version: 1.0
  * createdDate: 05/27/2021
  */
-const FILE_NAME = 'userService.js';
+const FILE_NAME = 'utils.js';
 const axios = require('axios').default;
 const LOGGER = require('../logger/logger');
 const { errorName } = require('../constants/constant');
