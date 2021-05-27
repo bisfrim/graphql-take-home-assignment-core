@@ -1,4 +1,4 @@
-# Grapql take home Server
+# Graphql take home Server
 ___
 Use for fetching property listings for a particular city.
 
