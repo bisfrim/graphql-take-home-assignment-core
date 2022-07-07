@@ -1,4 +1,4 @@
-# Graphql take home Server
+# Home Listing Graphql Server API
 ___
 Use for fetching property listings for a particular city.
 
